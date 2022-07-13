@@ -45,6 +45,10 @@ class XylophoneView: UIView {
             stackButtons.trailingAnchor.constraint(equalTo: trailingAnchor)
         ])
 
+        setXylophone()
+    }
+
+    private func setXylophone() {
         for i in labels.indices {
             let button = UIButton()
             button.translatesAutoresizingMaskIntoConstraints = false

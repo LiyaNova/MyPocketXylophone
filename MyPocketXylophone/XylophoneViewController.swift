@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  XylophoneViewController.swift
 //  MyPocketXylophone
 //
 //  Created by Юлия Филимонова on 05.07.2022.
@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class XylophoneViewController: UIViewController {
 
     private var xylophoneView: XylophoneView!
     private var player: AVAudioPlayer?
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
 
 //MARK: - TapDelegate
 
-extension ViewController: TapDelegate {
+extension XylophoneViewController: TapDelegate {
     func tapNote(musicNote: String) {
         playSound(sound: musicNote)
     }

@@ -17,7 +17,7 @@
 		384F2EB72875F4ED0051783C /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 384F2EB02875F4ED0051783C /* D.wav */; };
 		387804D12874B65900907234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387804D02874B65900907234 /* AppDelegate.swift */; };
 		387804D32874B65900907234 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387804D22874B65900907234 /* SceneDelegate.swift */; };
-		387804D52874B65900907234 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387804D42874B65900907234 /* ViewController.swift */; };
+		387804D52874B65900907234 /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387804D42874B65900907234 /* XylophoneViewController.swift */; };
 		387804DA2874B65B00907234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387804D92874B65B00907234 /* Assets.xcassets */; };
 		387804DD2874B65B00907234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387804DB2874B65B00907234 /* LaunchScreen.storyboard */; };
 		387804E52874B6E800907234 /* XylophoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387804E42874B6E800907234 /* XylophoneView.swift */; };
@@ -35,7 +35,7 @@
 		387804CD2874B65900907234 /* MyPocketXylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPocketXylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387804D02874B65900907234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		387804D22874B65900907234 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		387804D42874B65900907234 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		387804D42874B65900907234 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
 		387804D92874B65B00907234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		387804DC2874B65B00907234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		387804DE2874B65B00907234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 			children = (
 				387804D02874B65900907234 /* AppDelegate.swift */,
 				387804D22874B65900907234 /* SceneDelegate.swift */,
-				387804D42874B65900907234 /* ViewController.swift */,
+				387804D42874B65900907234 /* XylophoneViewController.swift */,
 				387804E42874B6E800907234 /* XylophoneView.swift */,
 				38226771287763A700883280 /* TapButtonProtocol.swift */,
 				387804D92874B65B00907234 /* Assets.xcassets */,
@@ -176,7 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387804D52874B65900907234 /* ViewController.swift in Sources */,
+				387804D52874B65900907234 /* XylophoneViewController.swift in Sources */,
 				387804D12874B65900907234 /* AppDelegate.swift in Sources */,
 				387804D32874B65900907234 /* SceneDelegate.swift in Sources */,
 				38226772287763A800883280 /* TapButtonProtocol.swift in Sources */,
